@@ -2,6 +2,14 @@
 
 Custom PyQt5 widgets to use in my projects
 
+## BMainWindow
+### Example
+```python
+class MyTestWindow(BMainWindow):
+    def __init__(self):
+        super(MyTestWindow, self).__init__(parent=None)
+```
+
 ## BTableWidget
 ### Example
 ```python
